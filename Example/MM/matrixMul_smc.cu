@@ -37,7 +37,7 @@
 #include <helper_cuda.h>
 
 /* SMC change: One line added */
-#include "smc.h"
+#include "../../smc.h"
 
 /**
  * Matrix multiplication (CUDA Kernel) on the device: C = A * B
