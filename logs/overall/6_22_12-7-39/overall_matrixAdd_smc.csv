@@ -1,0 +1,12 @@
+==1442== NVPROF is profiling process 1442, command: ./matrixAdd_smc
+==1442== Profiling application: ./matrixAdd_smc
+==1442== Profiling result:
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+427.878475,0.502510,,,,,,,,,,4.000000,7.773477,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",213
+428.522334,0.470702,,,,,,,,,,4.000000,8.298775,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",214
+429.296821,0.001088,,,,,,,,,,0.003906,3.506156,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",217
+429.309941,0.000704,,,,,,,,,,0.000233,0.322788,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",219
+429.325109,0.000672,,,,,,,,,,0.000114,0.166308,"Device",,"Quadro P6000 (0)","1","7","[CUDA memset]",221
+429.375831,0.050241,60,1,1,32,32,1,32,4,0,,,,,"Quadro P6000 (0)","1","7","matrixAddCUDA(float*, float*, float*, int, int, dim3, int, int*, int*, int*)",222
+429.442489,1.483468,,,,,,,,,,4.000000,2.633188,"Device","Pageable","Quadro P6000 (0)","1","7","[CUDA memcpy DtoH]",226

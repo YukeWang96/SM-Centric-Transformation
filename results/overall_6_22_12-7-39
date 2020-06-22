@@ -1,0 +1,5 @@
+Filename, Mem(ms), Compute(ms)
+overall_matrixAdd_org.csv, 2.514027, 0.036289
+overall_matrixAdd_smc.csv, 2.459144, 0.050241
+overall_matrixMul_org.csv, 0.167109, 27.929385
+overall_matrixMul_smc.csv, 0.169349, 0.107268

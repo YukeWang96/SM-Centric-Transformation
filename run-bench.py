@@ -3,7 +3,7 @@ import datetime
 import os
 import subprocess
 
-overall = True
+overall = False
 if not os.path.exists("results"):
 	os.mkdir("results")
 
@@ -23,6 +23,8 @@ if not os.path.exists("logs/metrics"):
 	os.mkdir("logs/metrics")
 
 programs = [
+    'matrixAdd_org',
+    'matrixAdd_smc',
     'matrixMul_org',
     'matrixMul_smc'
 ]
@@ -61,7 +63,7 @@ for app in programs:
                     '--csv', '--print-gpu-trace'
                     ]
     
-    instance = [ "./" + app ]
+    instance = [ "./" + app]
     subprocess.run(common + instance)
     
 if overall:

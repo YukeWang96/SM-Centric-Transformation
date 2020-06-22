@@ -1,0 +1,9 @@
+==373== NVPROF is profiling process 373, command: ./matrixAdd_org
+==373== Profiling application: ./matrixAdd_org
+==373== Profiling result:
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+422.124025,0.492815,,,,,,,,,,4.000000,7.926402,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",213
+422.749196,0.477294,,,,,,,,,,4.000000,8.184159,"Pageable","Device","Quadro P6000 (0)","1","7","[CUDA memcpy HtoD]",214
+423.245339,0.036161,32,32,1,32,32,1,32,0,0,,,,,"Quadro P6000 (0)","1","7","matrixAddCUDA(float*, float*, float*, int, int)",215
+423.295676,1.488812,,,,,,,,,,4.000000,2.623736,"Device","Pageable","Quadro P6000 (0)","1","7","[CUDA memcpy DtoH]",217

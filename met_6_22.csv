@@ -1,0 +1,5 @@
+data,atomic_transactions,atomic_transactions_per_request,global_atomic_requests,dram_read_throughput,dram_write_throughput,dram_utilization,sm_efficiency,dram_read_bytes,dram_write_bytes,flop_count_sp,flop_count_sp_add,flop_count_sp_fma,flop_count_sp_mul,flop_count_sp_special,flop_sp_efficiency,gld_efficiency,branch_efficiency,tex_cache_hit_rate,l2_tex_hit_rate,global_hit_rate,local_hit_rate
+metric_matrixAdd_org.csv,0.000,0.000,0.000,226.228,111.596,9.000,90.698,8389152.000,4138304.000,1048576.000,1048576.000,0.000,0.000,0.000,0.261,100.000,100.000,50.000,0.000,0.000,0.000
+metric_matrixAdd_smc.csv,60.000,1.000,60.000,153.601,76.319,6.000,89.810,8393344.000,4170336.000,14058496.000,5800960.000,0.000,8257536.000,4063232.000,2.410,81.689,100.000,56.523,16.745,0.000,0.000
+metric_matrixMul_org.csv,0.000,0.000,0.000,1.425,1.216,0.854,91.544,143171.721,122329.515,131072000.000,0.000,65536000.000,0.000,0.000,12.102,100.000,100.000,50.000,98.661,0.000,0.000
+metric_matrixMul_smc.csv,60.000,1.000,60.000,230.636,6.627,1.000,56.505,2976.000,720.000,66548224.000,365056.000,32768000.000,647168.000,372736.000,5.504,48.623,100.000,75.730,49.984,0.000,0.000
